@@ -1,0 +1,21 @@
+{% load static %}
+{% load react_bundle_loader %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    {% render_bundle_css  %}
+
+  </head>
+  <body>
+
+    <div id='root'>
+    </div>
+
+
+    {% render_bundle_js %}
+  </body>
+</html>
