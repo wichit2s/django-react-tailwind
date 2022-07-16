@@ -44,13 +44,8 @@ python manage.py runserver
 ## Start Frontend (watch and rebuild)
 
 ```sh
-npm --prefix=webapp/frontend run watch
-```
-
-or
-
-```sh
 cd webapp/frontend
+npm install
 npm run watch
 ```
 
